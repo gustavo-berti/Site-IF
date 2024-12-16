@@ -1,7 +1,18 @@
-export default function App() {
+import { Outlet } from "react-router-dom";
+import { Topbar, Sidebar } from "./components";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-neutral-950">
-      Hello world!
-    </h1>
-  )
-}
+    <div className="h-screen w-screen flex flex-col">
+      <Topbar />
+      <div className="flex h-[85%]">
+        <Sidebar />
+        <main className="flex-1 w-[80%]">
+          <Outlet />
+        </main>
+      </div>
+    </div>
+  );
+};
+
+export default App;

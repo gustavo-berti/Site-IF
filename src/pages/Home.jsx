@@ -28,28 +28,26 @@ const Home = () => {
           {/* Primeiro Card */}
           <div className="bg-green-100 rounded-lg p-4">
             <img
-              src="https://via.placeholder.com/600x300"
+              src="/fake.png"
               alt="Palestra"
               className="rounded-md mb-4"
             />
             <h3 className="text-gray-800 font-semibold">(Ensino Pratico sobre <i>Fake News</i> para a 3ª Idade)</h3>
             <p className="text-gray-600 mb-2">(Gustavo G. Berti, Luan G. M. Marques, Thalles S. M. Barros, Vinicius de O. Rebussi)</p>
             <p className="text-gray-500 text-sm">
-              Lorem ipsum dolor sit amet. Cum beatae perspiciatis qui veniam place...
             </p>
           </div>
 
           {/* Segundo Card */}
           <div className="bg-green-100 rounded-lg p-4">
             <img
-              src="https://via.placeholder.com/600x300"
+              src="/foto.png"
               alt="Distribuição"
               className="rounded-md mb-4"
             />
             <h3 className="text-gray-800 font-semibold">(Ensino Pratico sobre <i>Fake News</i> para a 3ª Idade)</h3>
             <p className="text-gray-600 mb-2">(Gustavo G. Berti, Luan G. M. Marques, Thalles S. M. Barros, Vinicius de O. Rebussi)</p>
             <p className="text-gray-500 text-sm">
-              Lorem ipsum dolor sit amet. Cum beatae perspiciatis qui veniam place...
             </p>
           </div>
         </div>

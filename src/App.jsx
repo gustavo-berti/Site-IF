@@ -7,7 +7,7 @@ const App = () => {
       <Topbar />
       <div className="flex h-[85%]">
         <Sidebar />
-        <main className="flex-1 w-[80%]">
+        <main className="flex-1 w-[80%] overflow-auto">
           <Outlet />
         </main>
       </div>

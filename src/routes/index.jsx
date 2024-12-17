@@ -11,9 +11,8 @@ const AppRoutes = () => {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="extension" element={<Extension />} />
-            <Route path="works" element={<Works />}>
-                <Route path=":id" element={<WorkDetails />} />
-            </Route>
+            <Route path="works" element={<Works />} />
+            <Route path="works/:id" element={<WorkDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

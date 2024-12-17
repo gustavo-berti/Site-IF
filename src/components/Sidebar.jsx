@@ -30,7 +30,7 @@ const Sidebar = () => {
     return (
         <aside className={`${open ? 'w-[25%]' : 'w-[10%]'} duration-300 bg-primary text-dark font-bold`}>
             <div className="flex items-center justify-center h-16 text-xl my-8">
-                <img src="/image.png" className="h-[100%] cursor-pointer" onClick={() => setOpen(!open)} />
+                <img src="/ifpr.png" className="h-[100%] cursor-pointer" onClick={() => setOpen(!open)} />
             </div>
             <ul className="space-y-4">
                 {menu.map((item, index) => (
